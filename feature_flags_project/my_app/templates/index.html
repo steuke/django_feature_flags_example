@@ -1,0 +1,15 @@
+{% load my_feature_flags %}
+<html>
+<head>
+</head>
+<body>
+
+This is just a simple page with some text.
+
+{% show_awesome_text as awesome_text_enabled %}
+{% if awesome_text_enabled %}
+    <h1>This text is awesome! 🤓</h1>
+{% endif %}
+
+</body>
+</html>
