@@ -1,19 +1,20 @@
+-i https://pypi.org/simple/
 asgiref==3.2.7
 attrs==19.3.0
 certifi==2020.4.5.1
 cffi==1.14.0
 chardet==3.0.4
-cryptography==2.9
-Django==3.0.5
+cryptography==2.9.2
+django==3.0.7
 idna==2.9
 jsonschema==3.2.0
 mmh3==2.5.1
 optimizely-sdk==3.4.1
 pycparser==2.20
-pyOpenSSL==19.1.0
+pyopenssl==19.1.0
 pyrsistent==0.16.0
-pytz==2019.3
-requests==2.23.0
-six==1.14.0
+pytz==2020.1
+requests[security]==2.23.0
+six==1.15.0
 sqlparse==0.3.1
-urllib3==1.25.8
+urllib3==1.25.9
